@@ -1,12 +1,13 @@
-import Dashboard from "./dashboard";
-import Patient from "./patient";
-
+import Banner from "./components/banner";
+import Team from "./team/page"
+import Features from "./features/page";
 
 export default function Home() {
-  return (
- <div>
-<Dashboard/>
-<Patient/>
- </div>
-  );
+    return (
+        <div className="min-h-screen flex flex-col">
+        <Banner/>
+        <Features/>
+        <Team/>
+        </div>
+    );
 }
