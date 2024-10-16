@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

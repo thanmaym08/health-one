@@ -1,5 +1,5 @@
-// Banner.tsx
 import React from "react";
+import { SignUpButton } from '@clerk/nextjs'; // Import SignUpButton
 
 const Banner: React.FC = () => {
     return (
@@ -14,12 +14,14 @@ const Banner: React.FC = () => {
                 <h1 className="text-5xl font-bold mb-4">Welcome to Our Platform</h1>
                 <p className="text-xl mb-8">The best solution for all your health needs.</p>
                 <div>
-                    <a
-                        href="#about"
-                        className="bg-blue-500 hover:bg-blue-700 text-white py-3 px-6 rounded-lg mr-4"
-                    >
-                        Get Started
-                    </a>
+                    <SignUpButton>
+                        {/* Button for signing up */}
+                        <button className="bg-blue-500 hover:bg-blue-700 text-white py-3 px-6 rounded-lg mr-4">
+                            Get Started
+                        </button>
+                    </SignUpButton>
+
+                    {/* Contact Us button */}
                     <a
                         href="#contact"
                         className="bg-white hover:bg-gray-300 text-black py-3 px-6 rounded-lg"
