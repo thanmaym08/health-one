@@ -3,8 +3,11 @@ import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 const isProtectedRoute = createRouteMatcher(['/dashboard(.*)', '/forum(.*)']);
 
 export default clerkMiddleware((auth, req) => {
-  // Custom logic before redirecting
-  if (!auth().userId && isProtectedRoute(req)) {
+  // Check if auth is undefined or if userId is not present
+  const { userId } = auth() || {};
+
+  // Redirect to sign-in if the user is not authenticated and trying to access protected routes
+  if (!userId && isProtectedRoute(req)) {
     console.log('Unauthorized access attempt to:', req.url); // Log unauthorized access
     return auth().redirectToSignIn();
   }

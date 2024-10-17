@@ -38,3 +38,36 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # mani-clerk
 # mani-clerk
 # mani---backend--ready---to-push-
+     
+
+     DAY 1 - 15/10/24 (library)
+     Mani bharadwaj = basic layout of website and merged others work 
+     % = 90%
+     Manju = data upade into database (not atlas)
+     % = 70%
+     shashank = data upadates into databse (not atlas) 
+     % = 70%
+     Thanmay = created 3 (nav, cta, features and etc..)
+     % = 95%
+     pavan = created a footer and dint create faq (dint complete other features like dashboard and description)
+     % = 35%
+
+
+     DAY 2 - 16/10/24 (in house )
+     Mani bharadwaj = setuped the backedn with frontend an dhelped team to fix issues (pavan = git issue{30min} , m & s = mongo issue {1.5h} ) 
+     % = 80%
+
+     Manju = cloned the data into atlas (tried but no use of it for frontend) 
+     blockchain ???????
+     % = 50%
+
+     shashank = cloned the data into atlas (tried but no use of it for frontend) 
+     blockchain ???????
+     % = 50%
+
+     Thanmay = tried to create a contacts us both frontend and backedn(not optimal backedn)/// and created a logo 
+     % = 65%
+     pavan =  tried to create faq (not optimal for frontend and future )
+     % = 25%
+
+    Day 3 17/10/24

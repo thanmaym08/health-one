@@ -1,17 +1,17 @@
 import Image from "next/image";
-import Link from "next/link"; // Import Link from next/link
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'; // Import SignUpButton
+import Link from "next/link"; 
+import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs';
 
 export default function Navbar() {
     return (
         <div className="flex flex-col">
             {/* Navbar */}
-            <header style={{ backgroundColor: '#1a2238' }} className="bg-blue-600 p-3 fixed top-0 w-full z-50">
+            <header className="bg-blue-600 p-3 fixed top-0 w-full z-50">
                 <nav className="container mx-auto flex justify-between items-center">
                     <div className="flex items-center space-x-3">
                         <Image
                             src="/assets/logo.png"
-                            alt="Logo"
+                            alt="HealthOne Logo"
                             width={50}
                             height={50}
                         />
