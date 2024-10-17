@@ -39,7 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # mani-clerk
 # mani---backend--ready---to-push-
      
-
+                                        TRACKER
+                                        
      DAY 1 - 15/10/24 (library)
      Mani bharadwaj = basic layout of website and merged others work 
      % = 90%
