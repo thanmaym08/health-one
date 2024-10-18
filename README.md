@@ -55,8 +55,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
      DAY 2 - 16/10/24 (in house )
-     Mani bharadwaj = setuped the backedn with frontend an dhelped team to fix issues (pavan = git issue{30min} , m & s = mongo issue {1.5h} ) 
-     % = 80%
+
+     Mani bharadwaj = completed the backedn connection with fronent quickly and integrated with teaam for issues  {1.5h pavan and backedn} ) 
+     % = %
 
      Manju = cloned the data into atlas (tried but no use of it for frontend) 
      make atlas ready data 
@@ -73,3 +74,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
      % = 25%
 
     Day 3 17/10/24
+
+     Mani bharadwaj = setuped the backedn with frontend an dhelped team to fix issues (pavan = git issue{30min} , m & s = mongo issue {1.5h} ) 
+     % = 80%
+
+     Manju = blockcahin course 13.5 hrs
+     % = 55%
+
+     shashank =  blockcahin course 13.5 hrs
+     % = 60%
+
+     Thanmay = edited the features , team and helped pavan (mentioed no updeate of nav) 
+     % = 90%
+     
+     pavan =  tried to create footer (errors and bugs  )
+     % = 35%
+
+
