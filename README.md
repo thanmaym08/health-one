@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # mani---backend--ready---to-push-
      
                                         TRACKER
-                                        
+
      DAY 1 - 15/10/24 (library)
      Mani bharadwaj = basic layout of website and merged others work 
      % = 90%
@@ -59,15 +59,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
      % = 80%
 
      Manju = cloned the data into atlas (tried but no use of it for frontend) 
-     blockchain ???????
-     % = 50%
+     make atlas ready data 
+     % = 60%
 
      shashank = cloned the data into atlas (tried but no use of it for frontend) 
-     blockchain ???????
-     % = 50%
+     make atlas ready data 
+     % = 60%
 
      Thanmay = tried to create a contacts us both frontend and backedn(not optimal backedn)/// and created a logo 
      % = 65%
+     
      pavan =  tried to create faq (not optimal for frontend and future )
      % = 25%
 
