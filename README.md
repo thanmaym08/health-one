@@ -90,4 +90,22 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
      pavan =  tried to create footer (errors and bugs  )
      % = 35%
 
+    
+    Day 4 18/10/24
 
+     Mani bharadwaj = tried backedend and pulled all frontend issues and bugs and helped team to fix issues of hardhat *** night session upto 12  (m & s = hardhat {1.5h} ) 
+     % = 80%
+
+     Manju = tried hardhat and failed 
+     % = 35% {for hardwork , no utalization}
+
+     shashank =  tried hardhat and failed  
+     % = 35% {for hardwork , no utalization}
+
+     Thanmay = edited the pics and others  
+     % = 75%
+     
+     pavan =  footer changes (errors and bugs  )
+     % = 75%
+
+    

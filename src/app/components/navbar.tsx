@@ -1,21 +1,25 @@
 import Image from "next/image";
-import Link from "next/link"; 
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs';
+import Link from "next/link";
+
+
 
 export default function Navbar() {
     return (
         <div className="flex flex-col">
             {/* Navbar */}
-            <header className="bg-blue-600 p-3 fixed top-0 w-full z-50">
+            <header className="bg-blue-500 p-3 fixed top-0 w-full z-50">
                 <nav className="container mx-auto flex justify-between items-center">
-                    <div className="flex items-center space-x-3">
+                    <div className="flex items-center space-x-3 rounded-full">
                         <Image
                             src="/assets/logo.png"
                             alt="HealthOne Logo"
+                            className="rounded-3xl"
                             width={50}
-                            height={50}
+                            height={50
+
+                            }
                         />
-                        <div className="text-white text-xl font-semibold">HealthOne</div>
+                        <div className="text-white text-xl font-semibold">Health One</div>
                     </div>
                     <ul className="flex space-x-6 text-white">
                         <li><Link href="/" className="hover:text-gray-300">Home</Link></li>
@@ -27,23 +31,20 @@ export default function Navbar() {
 
                     {/* Clerk Authentication */}
                     <div className="flex items-center space-x-4">
-                        <SignedOut>
-                            {/* Show both Sign In and Sign Up buttons when the user is signed out */}
-                            <SignInButton>
-                                <button className="text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-md">Sign In</button>
-                            </SignInButton>
-                            <SignUpButton>
-                                <button className="text-white bg-green-600 hover:bg-green-700 px-4 py-2 rounded-md">Sign Up</button>
-                            </SignUpButton>
-                        </SignedOut>
-                        <SignedIn>
-                            {/* Show the User Button when signed in */}
-                            <UserButton 
-                                appearance={{ elements: { 
-                                    avatarBox: 'w-12 h-12' // Adjust width and height for larger avatar
-                                }}} 
-                            />
-                        </SignedIn>
+
+                        {/* Show both Sign In and Sign Up buttons when the user is signed out */}
+
+                        <button className="text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-md">Sign In</button>
+
+
+                        <button className="text-white bg-green-600 hover:bg-green-700 px-4 py-2 rounded-md">Sign Up</button>
+
+
+
+                        {/* Show the User Button when signed in */}
+                
+
+
                     </div>
                 </nav>
             </header>
