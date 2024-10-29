@@ -14,7 +14,7 @@ const people = [
     {
         name: 'Thanmay',
         role: 'Frontend Developer',
-        imageUrl: '/assets/thanu.png',
+        imageUrl: '/assets/thanu5.jpg',
     },
     {
         name: 'Shashank',
